@@ -14,10 +14,10 @@
 
 $(call inherit-product, device/wileyfox/kipper/full_kipper.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common AOKP stuff.
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
-PRODUCT_NAME := cm_kipper
+PRODUCT_NAME := aokp_kipper
 BOARD_VENDOR := wileyfox
 PRODUCT_DEVICE := kipper
 
